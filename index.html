@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CPU schedualing algorithm</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <section class="section">
+
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>process</th>
+            <th>burst time</th>
+            <th>waiting time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row" class="process-one">p1</td>
+            <td> </td>
+            <td></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+
+    <div class="option">
+      <div class="option-container">
+        <div>
+          <select name="" id="">
+            <option>--- select algorithm ---</option>
+            <option id="FCSFS">FCFS</option>
+            <option id="SJF">SJF</option>
+            <option id="STRF">SRTF</option>
+            <option id="RR">RR</option>
+            <option class="priority" id="priority"> priority</option>
+          </select>
+        </div>
+
+
+        <div class="btn"><button id="add"> <span style="text-transform: capitalize;">add</span> process</button></div>
+        <div class="btn" id="run""><button   style=" text-transform: uppercase;" id="run">run</button></div>
+      </div>
+
+
+    </div>
+
+  </section>
+  <script src=" script.js"></script>
+</body>
+
+</html>
